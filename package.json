@@ -1,0 +1,28 @@
+{
+  "name": "cosmosswap",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@atmoner/liquidity": "/home/atmon3r/Bureau/liquidity/dist",
+    "@cosmjs/stargate": "^0.33.1",
+    "@victor118/liquidityjs": "^0.0.5",
+    "liquidityjs": "^0.0.12",
+    "pinia": "^3.0.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.3",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "prettier": "3.5.3",
+    "vite": "^6.2.5",
+    "vite-plugin-vue-devtools": "^7.7.2"
+  }
+}
